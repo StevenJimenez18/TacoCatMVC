@@ -20,18 +20,6 @@ namespace TacoCatMVC
         }
 
 
-        /*public static async Task Main(string[] args)
-        {
-            var host = CreateHostBuilder(args).Build();
-
-            var dbContext = host.Services
-                                .CreateScope().ServiceProvider
-                                .GetRequiredService<ApplicationDbContext>();
-
-            await dbContext.Database.MigrateAsync();
-
-            host.Run();
-        }*/
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
