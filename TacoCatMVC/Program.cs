@@ -14,13 +14,13 @@ namespace TacoCatMVC
 {
     public class Program
     {
-        /*public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-        }*/
+        }
 
 
-        public static async Task Main(string[] args)
+        /*public static async Task Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
 
@@ -31,7 +31,7 @@ namespace TacoCatMVC
             await dbContext.Database.MigrateAsync();
 
             host.Run();
-        }
+        }*/
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
